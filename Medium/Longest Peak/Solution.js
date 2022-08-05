@@ -20,7 +20,7 @@ function longestPeak(array) {
       }
       const curPeak=rt-lt-1;
       if(curPeak>maxPeak){
-        maxPeak=curPeak
+        maxPeak=curPeak;
       }
       i=rt;
     }
